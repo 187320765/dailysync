@@ -23,7 +23,7 @@ const GARMIN_USERNAME = "hei_bao@qq.com";//process.env.GARMIN_USERNAME ?? GARMIN
 const GARMIN_PASSWORD = "Jing123*";//process.env.GARMIN_PASSWORD ?? GARMIN_PASSWORD_DEFAULT;
 const GARMIN_MIGRATE_NUM = 1;//process.env.GARMIN_MIGRATE_NUM ?? GARMIN_MIGRATE_NUM_DEFAULT;
 const GARMIN_MIGRATE_START = 0;//process.env.GARMIN_MIGRATE_START ?? GARMIN_MIGRATE_START_DEFAULT;
-const GARMIN_SYNC_NUM = 1;//process.env.GARMIN_SYNC_NUM ?? GARMIN_SYNC_NUM_DEFAULT;
+const GARMIN_SYNC_NUM = 1038;//process.env.GARMIN_SYNC_NUM ?? GARMIN_SYNC_NUM_DEFAULT;
 
 export const getGaminCNClient = async (): Promise<GarminClientType> => {
     if (_.isEmpty(GARMIN_USERNAME) || _.isEmpty(GARMIN_PASSWORD)) {
